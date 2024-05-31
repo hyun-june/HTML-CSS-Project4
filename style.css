@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+}
+
+h1{
+    display: none;
+}
+
+/* 문제1 */
+
+.matter1{
+    display: none;
+    justify-content: space-between;
+}
+
+.matter1-sub{
+    display: flex;
+}
+
+.box2{
+    margin-right: 10px;
+}
+
+.box1,.box2, .box3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+/* 문제2 */
+
+.matter2{
+    display: none;
+    flex-direction: column;
+}
+
+.box4, .box5, .box6{
+    width: 200px;
+    height: 200px;
+    background-color: lightslategray;
+    color: white;
+}
+
+.box5{
+    align-self: center;
+}
+
+.box6{
+    align-self: flex-end;
+}
+
+/* 문제3 */
+
+.matter3{
+    display: none;
+    position: relative;
+    justify-content: center;
+}
+
+.box7{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+}
+
+.box8{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+}
+
+/* 문제4 */
+
+.matter4{
+    display: none;
+}
+
+.box9, .box10 {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.box9{
+    background-color: black;
+}
+
+.box10{
+    background-color: gray;
+    position: relative;
+    left: 50px;
+    top: -80px;
+}
+
+/* 문제5 */
+
+.matter5{
+    position: relative;
+    display: none;
+}
+
+.box11{
+    color: white;
+    width: 600px;
+    height: 300px;
+    background-color: darkolivegreen;
+    position: absolute;
+    right: -0;
+}
+
+.box12, .box13{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
+
+.box12{
+    position: absolute;
+    top: -0px;
+    right:-0px;
+}
+
+.box13{
+    position: absolute;
+    bottom: -0;
+    left: -0;
+}
+
+/* button */
+
+button{
+    width: 120px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s ;
+    border: none;
+}
+
+.btnBlueGreen {
+    background: #00AE68;
+}
+  
+.btnblue {
+    background: #5DC8CD;
+}
+  
+.btnOrange {
+    background: #FFAA40;
+}
+  
+.btnPurple {
+    background: #A74982;
+}
+
+.btnPink{
+    background: #f2d8cd;
+}
+  
+
+.btnBlueGreen.btnPush {
+  box-shadow: 0px 5px 0px 0px #007144;
+}
+
+.btnblue.btnPush {
+  box-shadow: 0px 5px 0px 0px #1E8185;
+}
+
+.btnOrange.btnPush {
+  box-shadow: 0px 5px 0px 0px #A66615;
+}
+
+.btnPurple.btnPush {
+  box-shadow: 0px 5px 0px 0px #6D184B;
+}
+
+.btnPink.btnPush{
+    box-shadow: 0px 5px 0px 0px #f0cfc3;
+}
+
+.btnPush:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.btnBlueGreen.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #007144;
+}
+
+.btnblue.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #1E8185;
+}
+
+.btnOrange.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #A66615;
+}
+
+.btnPurple.btnPush:hover {
+  box-shadow: 0px 0px 0px 0px #6D184B;
+}
+.btnPink.btnPush:hover {
+    box-shadow: 0px 0px 0px 0px #f0cfc3;
+  }
